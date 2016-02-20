@@ -6,13 +6,10 @@ npm install express  </br>
 npm install nodemon (Update The File and Restart The Server Automatic) </br>
 FileName : index.js </br>
 <CODE> </br>
-var express = require('express');
- </br>
-var app = express();
- </br>
-var port = 3000;
- </br>
- 
+var express = require('express'); </br>
+var app = express(); </br>
+var port = 3000; </br>
+  </br>
 app.get('/' , function(req ,res){ </br>
 
   res.send('Hello World'); </br>
