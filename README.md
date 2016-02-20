@@ -4,8 +4,8 @@
 StartUp With NPM  </br>
 npm install express  </br>
 npm install nodemon (Update The File and Restart The Server Automatic) </br>
-FileName : index.js </br>
-<CODE> </br>
+FileName : index.js </br> </br>
+</br>
 var express = require('express'); </br>
 var app = express(); </br>
 var port = 3000; </br>
@@ -23,7 +23,7 @@ app.listen(port, function(){ </br>
 
 }); </br>
 
-</CODE> </br>
+</br>
 Test Server With Node </br>
 nodemon index.js </br>
 Go To http://localhost:3000/ </br>
